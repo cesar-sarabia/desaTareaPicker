@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Datos Cliente</string>
+    <string name="detalleHeader">Confirmar Datos</string>
+    <string name="tvsNombre">Nombre Completo</string>
+    <string name="tvsTelefono">Telefono</string>
+    <string name="tvsEmail">Email</string>
+    <string name="tvsDescripcion">Descripcion</string>
+    <string name="btnsSiguiente">Siguiente</string>
+    <string name="btnsEditar">Editar Datos</string>
+    <string name="validateNombre">Ingrese el nombre</string>
+    <string name="validateFecha">seleccione fecha de nacimiento</string>
+    <string name="validateTelefono">Ingrese el nùmero telefónico</string>
+    <string name="validateEmail">Ingrese un correo electrónico valido</string>
+    <string name="validateDescripcion">Ingrese la descripción</string>
+    <string name="tvsDOB">Fecha de Nacimiento</string>
+    <string name="nameParam">name</string>
+    <string name="dobParam">dob</string>
+    <string name="phoneParam">phone</string>
+    <string name="emailParam">email</string>
+    <string name="descripcionParam">description</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalleContacto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/detalleHeader"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+         />
+        <TextView
+            android:id="@+id/txvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tvsNombre"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:id="@+id/txvDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tvsDOB"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/txvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tvsTelefono"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:id="@+id/txvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tvsEmail"/>
+
+        <TextView
+            android:id="@+id/txvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tvsDescripcion"/>
+
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnsEditar">
+
+        </Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
